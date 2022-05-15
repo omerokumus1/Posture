@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/rootLayout"
+    android:gravity="center"
+    tools:context=".feature.main.UploadImageFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/analyzer_text"
+        style="@style/primaryText"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/photo_rules"
+        style="@style/secondaryText"
+        android:layout_marginBottom="12dp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/upload_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/upload"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:backgroundTint="@color/bistre"
+            />
+
+        <Button
+            android:id="@+id/camera_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:text="@string/camera"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:backgroundTint="@color/bistre"
+             />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

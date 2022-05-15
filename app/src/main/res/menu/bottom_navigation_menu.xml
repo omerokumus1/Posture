@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/analyzer"
+        android:enabled="true"
+        android:icon="@drawable/ml_icon"
+        android:title="@string/analyzer"/>
+    <item
+        android:id="@+id/tracker"
+        android:enabled="true"
+        android:icon="@drawable/checklist_icon"
+        android:title="@string/tracker"
+        />
+
+<!--    <item-->
+<!--        android:id="@+id/map"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/icon_2"-->
+<!--        android:title="@string/text_label_2"/>-->
+
+</menu>

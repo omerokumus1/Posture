@@ -1,0 +1,13 @@
++ Cameradan fotoğraf alma
++ Telefondan fotoğraf yükleme
+- anımsatıcı
+- takip listesi
++ aşağıya navigation bar
+- yukarıya toolbar
++ Çizgileri çizdir
++ unit testing
+- login screen, shared prefs
++ uygulama iconu
++ textler için birincil ikincil style oluştur
++ fotoğrafları esnetmeden yerleştir
++ progress bar
